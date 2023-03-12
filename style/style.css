@@ -157,6 +157,31 @@
   font-size: 32px;
   font-weight: 400;
 }
+/* clients */
+.clients-main {
+  background-color: #2a2c39;
+}
+.cliants {
+  border: 1px solid #666769;
+}
+/* blog-post */
+.blog-post-main {
+  background-color: #2a2c39;
+}
+.post-main {
+  background-color: #282a37;
+}
+.read-more-btn {
+  color: aliceblue;
+  border: 1px solid #666769;
+  border-radius: 35px;
+  padding: 15px 30px;
+  background-color: transparent;
+}
+.read-more-btn:hover {
+  background-color: #31333e;
+  border: none;
+}
 /* media */
 @media screen and (max-width: 767px) {
   .hero-content {
@@ -182,6 +207,12 @@
   }
   .portfolio-main-text {
     font-size: 36px;
+  }
+  .post-main {
+    flex-direction: column;
+  }
+  .blog-title {
+    padding: 35px 0px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
