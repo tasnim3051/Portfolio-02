@@ -1,0 +1,33 @@
+ <div class="col">
+            <div class="service-card p-5">
+              <div>
+                <div class="card-icon pb-5">
+                  <img
+                    src="./image/service-icon-1.webp"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="pb-5">
+                  <p class="fs-4 fw-bold text-white">UI/UX Design</p>
+                </div>
+                <div>
+                  <p class="service-list">
+                    <span class="pe-4">>></span><span>Landing pages</span>
+                  </p>
+                  <p class="service-list">
+                    <span class="pe-4">>></span><span>User Flow</span>
+                  </p>
+                  <p class="service-list">
+                    <span class="pe-4">>></span><span>Wirframing</span>
+                  </p>
+                  <p class="service-list">
+                    <span class="pe-4">>></span><span>Prototyping</span>
+                  </p>
+                  <p class="service-list">
+                    <span class="pe-4">>></span><span>Mobile App Design</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>

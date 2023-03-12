@@ -1,0 +1,138 @@
+.navbar {
+  position: sticky;
+  top: 0px;
+  background-color: #252734;
+}
+.nav-link {
+  font-size: 1.2em;
+  color: #858792;
+}
+.nav-link:hover {
+  color: aliceblue;
+}
+
+.hire-btn {
+  border: 1px solid #858792;
+  color: aliceblue;
+}
+.hire-btn:hover {
+  background-color: #40404e;
+  color: aliceblue;
+}
+/*  */
+.hero-main {
+  background-color: #252734;
+}
+.hero-title {
+  font-size: 100px;
+  color: aliceblue;
+  font-weight: 700;
+}
+.hero-sub-title {
+  color: #858792;
+  font-size: 1.3em;
+}
+.Get-Resume {
+  border: 1px solid #666769;
+}
+.fa-play {
+  color: #858792;
+  background-color: #40404e;
+}
+.play-btn-text {
+  color: #858792;
+  font-size: 1.1em;
+}
+/* Service */
+.service-main {
+  padding: 150px 0px;
+  background-color: #2a2c39;
+}
+.service-heading-sec {
+}
+.service-sub-text {
+  color: #858792;
+  font-size: 1.2em;
+}
+.service-main-text {
+  font-size: 60px;
+  font-weight: 700;
+  color: aliceblue;
+}
+.service-card {
+  background-color: #252734;
+}
+.service-list {
+  color: #858792;
+}
+/* skill */
+.skill-main {
+  background-color: #252734;
+}
+.progress-main {
+  background-color: #2a2c39;
+  color: #858792;
+}
+.progress-bar {
+  border-radius: 5px;
+  width: 100%;
+  height: 6px;
+  background-color: #40424d;
+}
+.progress-range-Communication {
+  width: 75%;
+  border-radius: 5px;
+  height: 6px;
+  background-color: aliceblue;
+}
+.progress-range-Leadership {
+  width: 70%;
+  border-radius: 5px;
+  height: 6px;
+  background-color: aliceblue;
+}
+.progress-range-Teamwork {
+  width: 90%;
+  border-radius: 5px;
+  height: 6px;
+  background-color: aliceblue;
+}
+.progress-range-Flexibility {
+  width: 80%;
+  border-radius: 5px;
+  height: 6px;
+  background-color: aliceblue;
+}
+
+/* media */
+@media screen and (max-width: 767px) {
+  .hero-content {
+    flex-direction: column-reverse;
+  }
+  .hero-title-part-1 {
+    font-size: 36px;
+  }
+  .hero-title {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .hero-content {
+    flex-direction: column-reverse;
+  }
+  .hero-title-part-1 {
+    font-size: 45px;
+  }
+  .hero-title {
+    font-size: 80px;
+  }
+  .hero-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-img {
+    width: 75%;
+  }
+}
