@@ -9,6 +9,7 @@
   top: 0px;
   background-color: #252734;
 }
+
 .nav-link {
   font-size: 1.2em;
   color: #858792;
@@ -181,6 +182,42 @@
 .read-more-btn:hover {
   background-color: #31333e;
   border: none;
+}
+/* newslatter */
+.newslatter-main {
+  background-color: #252734;
+}
+.input-mail {
+  width: 50%;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid #666769;
+  border-radius: 30px;
+}
+.subscribe-btn {
+  color: aliceblue;
+  background-color: #40424d;
+  border: none;
+  border-radius: 30px;
+  padding: 20px 30px;
+}
+.subscribe-btn:hover {
+  border: 1px solid whitesmoke;
+}
+/* contact */
+.contact-iocn {
+  border: 1px solid #666769;
+  color: aliceblue;
+}
+.contact-iocn:hover {
+  color: #40424d;
+  background-color: aliceblue;
+  border: none;
+}
+/* footer */
+footer {
+  border-top: 1px solid rgb(77, 77, 77);
+  background-color: #252734;
 }
 /* media */
 @media screen and (max-width: 767px) {
