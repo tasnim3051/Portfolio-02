@@ -1,3 +1,9 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .navbar {
   position: sticky;
   top: 0px;
@@ -103,7 +109,54 @@
   height: 6px;
   background-color: aliceblue;
 }
-
+/* overview */
+.overview-main {
+  background-color: #282a37;
+}
+.overview-icon {
+  color: aliceblue;
+  border: 1px solid #666769;
+}
+.overview-number {
+  font-size: 52px;
+  font-weight: 400;
+  color: aliceblue;
+}
+.overview-text {
+  color: #858792;
+  font-size: 1.2em;
+}
+/* portfolio */
+.portfolio-main {
+  background-color: #2a2c39;
+}
+.portfolio-btn {
+  color: #858792;
+  border: 1px solid #666769;
+}
+.portfolio-project-part {
+  background-color: #252734;
+}
+.project-title {
+  color: aliceblue;
+  font-size: 28px;
+  font-weight: 500;
+}
+.project-title-sub {
+  color: #858792;
+}
+/* testemonial */
+.testemonial-main {
+  background-color: #252734;
+}
+.testemonial-part {
+  background-color: #282a37;
+}
+.testemonial-text {
+  color: aliceblue;
+  font-size: 32px;
+  font-weight: 400;
+}
 /* media */
 @media screen and (max-width: 767px) {
   .hero-content {
@@ -114,6 +167,21 @@
   }
   .hero-title {
     font-size: 60px;
+  }
+  .overview-content {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+  .overview-part-2 {
+    padding: 0px;
+  }
+  .portfolio-header {
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .portfolio-main-text {
+    font-size: 36px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -134,5 +202,8 @@
   }
   .hero-img {
     width: 75%;
+  }
+  .portfolio-main-text {
+    font-size: 36px;
   }
 }
